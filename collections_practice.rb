@@ -27,3 +27,7 @@ end
 def find_a(array)
   array.select { |starting_letter| starting_letter.start_with?("a")}
 end
+
+def sum_array(array)
+  array.inject {|sum| sum + n}
+end
