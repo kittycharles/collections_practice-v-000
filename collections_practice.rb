@@ -23,3 +23,7 @@ end
 def kesha_maker(array)
   array.each { |item| item[2] = "$"}
 end
+
+def find_a(array)
+  array.start_with?(a)
+end
