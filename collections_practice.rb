@@ -3,7 +3,5 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort do |sorted_array|
-    sorted_array.reverse
-  end
+  array.sort.reverse
 end
