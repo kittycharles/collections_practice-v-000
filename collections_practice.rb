@@ -36,8 +36,7 @@ def add_s(array)
  array.collect do |item|
    if array[1]
      array[1]
-   else array + "s"
-     array + "s"
+   else item + "s"
    end
  end
 end
